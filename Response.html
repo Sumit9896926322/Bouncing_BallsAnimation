@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Response</title>
+</head>
+<body>
+  <button class= "player-1 player">Player-1</button>
+  <button class = "player-2 player">Player-2</button>
+
+
+  <div class="score-1">0</div>
+  <div class="score-2">0</div>
+
+
+  <div class="winner"></div>
+  <div class="spinner">
+    <span class = "symbol">↻</span>
+  </div>
+  <style>
+  body{
+    background-image: linear-gradient(-90deg,#dddddd,black);
+  }
+
+
+.winner{
+  width: 50%;
+  height: 70px;
+  margin: auto;
+  text-align: center;
+
+}
+.spinner{
+  display: block;
+width: 50%;
+margin: auto;
+height: 200px;
+text-align: center;
+margin-top: 120px;
+  background-image: linear-gradient(-90deg,black,#dddddd);
+}
+
+.symbol{
+    display: inline-block;
+    font-size: 120px;
+    margin: 27px;
+}
+
+.player{
+  height: 50px;
+width: 20%;
+border-radius: 8px;
+font-family: fantasy;
+font-size: 22px;
+margin: 20px 200px;;
+}
+
+.score-1{
+  text-align: center;
+width: 10%;
+color:#dddddd;
+font-size: 80px;
+float: left;
+margin: 50px;
+}
+
+.score-2{
+  width: 10%;
+margin: 50px;
+height: 250px;
+font-size: 80px;
+float: right;
+}
+  </style>
+
+  <script type="text/javascript" src = "response.js"></script>
+
+</body>
+</html>
